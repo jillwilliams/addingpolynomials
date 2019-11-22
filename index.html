@@ -8,113 +8,105 @@
     <link rel="stylesheet" HREF="./styles.css">
 </head>
 <body>
-    <div type="container" id="mainBorder">
         <h1>
-            Adding Complex Mumbers
+            Adding Complex Numbers
         </h1>
-    </div>
-    <div id="mainBorder">
-        <p class="para1">
-            To add complex numbers, enter the equation into the boxes below.
+        <hr>
+        <p>
+            To add complex numbers, add each pair of corresponding like terms.
             <br>
-            The types of problems this program will solve are: 
+            The types of problems this unit will cover are: 
                 <ol>
                     <li>
-                        &nbsp(5 + 3i) + (3 + 2i)
+                        (5 + 3i) + (3 + 2i)
                     </li>
                     <li>
-                        &nbsp(7 - 6i) + (4 + 8i) 
+                            (7 - 6i) + (4 + 8i) 
                     </li>
                 </ol>
         </p>
-        <p class="para1">
-            <ul>
+        <hr>
+    <p>
+        When working with complex numbers, specifically when adding or subtracting, you can think of variable "i" as variable "x". As far as the calculation goes, combining like terms will give you the solution.<br>
+        <hr>
+    <p>
+        Example 1:<br>
+        Adding: (5 + 3i) + (3 + 2i) can be re-written as (5 + 3x) + (3 + 2x).  The addition sign between the parentheses tells you this is an addition problem. Since there are no coefficients infront of either set of parentheses, you can drop the parentheses from the problem and combine like terms.
+    </p>
+    <p>
+        5 + 3x + 3 + 2x<br>
+        5 + 3 + 3x + 2x<br>
+        8 + 5x<br>
+        8 + 5i *Answer<br>
+    </p>
+    <p>
+        Notice that the solution 8 + 5x is never written as 5x + 8; not when working with imaginary numbers. When you replace "x" with "i" at the end, the variable term with "i" in it must come second. The constant term always stays as the first answer.
+    </p>
+    <hr>
+    <p>
+        Solve: (7 - 6i) + (4 + 8i)<br>
+        7 - 6i + 4 + 8i<br>
+        7 + 4 -6i + 8i<br>
+        11 + 2i *Answer<br>
+    </p>
+    <hr>
+    <p>
+        Solve: (4 + 5i) + (2 + 5i)<br>
+        4 + 5i + 2 + 5i<br>
+        4 + 2 + 5i + 5i<br>
+        6 + 10i  *Answer
+    </p>
+    <hr>
+    <p>
+        Solve: (1 - 3i) + (-6 + 4i)<br>
+        1 - 3i + -6 + 4i<br>
+        1 - 6 - 3i + 4i<br>
+        -5 + 1i<br>  
+        -5 + i  *Answer
+    </p>
+    <hr>
+    <h1>
+        Subtracting Complex Numbers
+    </h1>
+    <hr>
+    <p>
+        To subtract complex numbers, subtract corresponding like terms.
+        <br>
+        The types of problems this unit will cover are: 
+            <ol>
                 <li>
-                    Once you have entered in your values, click the submit button for the solution.
+                    (5 + 3i) - (3 + 2i)
                 </li>
                 <li>
-                    Make sure to enter your numbers into the boxes as it appears written above, in order from left to right. 
+                    (7 - 6i) - (4 + 8i) 
                 </li>
-                <li>
-                    The term with the "i" should be entered second for each binomial, and the constant should be entered first for each binomial. 
-                </li>
-                <li>
-                    Enter your numbers below.
-                </li>
-            </ul>
-        </p>
-    </div>
-    <div class="para2">
-        <p>
-            (<input type="numeric" id="mya">  +
-            <input type="numeric" id="myb"> i ) +    
-            (<input type="numeric" id="myc">  + 
-            <input type="numeric" id="myd"> i )
-        </p>
-    </div>
-    <div>
-        <button 
-            type="submit" id="myBtn" onclick="answer( )">
-            SUBMIT
-        </button>
-    </div>
-    <p id="demo"></p>
-
-<!-- BEGIN SUBTRACTION PORTION -->
-    <div type="container" id="mainBorder">
-            <h1>
-                Subtracting Complex Numbers
-            </h1>
-        </div>
-        <div id="mainBorder">
-            <p class="para1">
-                To subtract complex numbers, enter the equation into the boxes below.
-                <br>
-                The types of problems this program will solve are: 
-                    <ol>
-                        <li>
-                            &nbsp(5 + 3i) - (3 + 2i)
-                        </li>
-                        <li>
-                            &nbsp(7 - 6i) - (4 + 8i) 
-                        </li>
-                    </ol>
-            </p>
-            <p class="para1">
-                <ul>
-                    <li>
-                        Once you have entered in your values, click the submit button for the solution.
-                    </li>
-                    <li>
-                        Make sure to enter your numbers into the boxes as it appears written above, in order from left to right. 
-                    </li>
-                    <li>
-                        The term with the "i" should be entered second for each binomial, and the constant should be entered first for each binomial. 
-                    </li>
-                    <li>
-                        Enter your numbers below.
-                    </li>
-                </ul>
-            </p>
-        </div>
-        <div class="para2">
-            <p>
-                (<input type="numeric" id="a2">  +
-                <input type="numeric" id="b2"> i ) -   
-                (<input type="numeric" id="c2">  + 
-                <input type="numeric" id="d2"> i )
-            </p>
-        </div>
-        <div>
-            <button 
-                type="submit" id="myBtn" onclick="answer2( )">
-                SUBMIT
-            </button>
-        </div>
-        <p id="demo2"></p>
-    
-        <footer>
-            ©2019 ALL THINGS MATH<br>ALL RIGHTS RESERVED
+            </ol>
+    </p>
+    <hr>
+    <p>
+        Solve: (5 + 3i) - (3 + 2i)<br>
+        5 + 3i - 3 - 2i<br>
+        5 - 3 + 3i - 2i<br>
+        2 + 1i<br>
+        2 + i *Answer<br>
+    </p>
+    <hr>
+    <p>
+        Solve: (7 - 6i) - (4 + 8i)<br>
+        7 - 6i - 4 - 8i<br>
+        7 - 4 - 6i - 8i<br>
+        3 - 14i *Answer
+    </p>
+    <hr>
+    <p>
+        Solve: (5 + 2i) - (6 + 4i)<br>
+        5 + 2i - 6 - 4i<br>
+        5 - 6 + 2i - 4i<br>
+        -1 - 2i *Answer
+    </p>
+    <hr>
+    <footer>
+        ©2019All Things Math
     </footer>
     <script type="text/javascript" src="./script.js"></script>
 </body>
