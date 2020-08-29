@@ -16,6 +16,10 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 1px aqua;
 }
+iframe {
+    margin: 15px 33%;
+    border: 2px white solid;
+}
 footer {
     text-align: center;
     font-size: 1.5rem;
